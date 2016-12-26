@@ -1,0 +1,2 @@
+
+in a script add `set -x` to print every command that bash shell executes
