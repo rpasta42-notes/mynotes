@@ -1,0 +1,22 @@
+show groups for user
+   http://www.cyberciti.biz/faq/linux-show-groups-for-user/
+adding users
+   https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart
+letsencrypt group permission setup
+   https://community.letsencrypt.org/t/how-to-use-certs-in-non-root-services/2690/3
+
+dbtnext
+   sudo adduser dbtnext
+   sudo usermod -aG ssl-cert dbtnext
+   sudo chgrp -R ssl-cert /etc/letsencrypt
+   sudo chmod -R g=rX /etc/letsencrypt
+   sudo chown -R dbtnext /sec/db/dbtnext/
+   sudo chown -R dbtnext /home/kkostya/dbtnext
+
+#chgrp -R ssl-cert <dirname>
+
+#add to sudo group
+#usermod -aG sudo dbtnext
+
+su - dbtnext
+
