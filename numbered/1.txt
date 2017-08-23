@@ -268,6 +268,8 @@ alter table ex:
    ALTER TABLE kk_Asset ADD COLUMN description TEXT AFTER contrib_freq;
 
 ================other notes
+===rsync
+rsync -avh /tmp/from/ root@host2:/tmp/to --stats --progress
 ===dpkg/apt
 list installed packages
    dpkg --get-selections | grep -v deinstall
