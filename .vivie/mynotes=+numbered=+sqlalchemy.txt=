@@ -2,7 +2,7 @@ let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 argglobal
 setlocal keymap=
 setlocal noarabic
-setlocal noautoindent
+setlocal autoindent
 setlocal backupcopy=
 setlocal nobinary
 setlocal nobreakindent
@@ -107,12 +107,28 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-77,103fold
-let s:l = 75 - ((28 * winheight(0) + 32) / 65)
+24,44fold
+46,72fold
+21,72fold
+74,82fold
+84,107fold
+109,119fold
+12,124fold
+12
+normal! zo
+21
+normal! zo
+24
+normal! zo
+21
+normal! zc
+12
+normal! zc
+let s:l = 2 - ((1 * winheight(0) + 32) / 65)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-75
+2
 normal! 0
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
