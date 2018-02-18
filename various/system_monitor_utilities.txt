@@ -1,0 +1,4 @@
+sar 1 5 = cpu stats for 5 seconds
+
+iostat 1 111 = USEFUL
+	- shows disk I/O and breaks it down by sda/sdb/etc
