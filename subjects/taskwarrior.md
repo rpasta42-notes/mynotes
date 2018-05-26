@@ -4,9 +4,13 @@
    - [advanced date stuff](https://taskwarrior.org/docs/using_dates.html)
    - [modifying tasks](https://taskwarrior.org/docs/commands/modify.html)
    - [date formats](https://taskwarrior.org/docs/dates.html)
-
+   - [reports graphical stuff](https://taskwarrior.org/docs/report.html)
 
 - commands
+   - `task completed`
+      - show completed tasks
+   - `task ghistory`
+      - graphical stuff
    - `task list`
       - unordered list
    - `task` or `task next`
