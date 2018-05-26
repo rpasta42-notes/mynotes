@@ -1,8 +1,8 @@
 
 - [docs](https://taskwarrior.org/docs/)
-- [advanced date stuff][https://taskwarrior.org/docs/using_dates.html]
-- [modifying tasks][https://taskwarrior.org/docs/commands/modify.html]
-- [date formats][https://taskwarrior.org/docs/dates.html]
+- [advanced date stuff](https://taskwarrior.org/docs/using_dates.html)
+- [modifying tasks](https://taskwarrior.org/docs/commands/modify.html)
+- [date formats](https://taskwarrior.org/docs/dates.html)
 
 
 - commands
